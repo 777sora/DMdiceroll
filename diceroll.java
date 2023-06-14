@@ -6,6 +6,11 @@ public static void main(String[] a){
 
 Random rand = new Random();
 
+Scanner sc = new Scanner(System.in);
+System.out.println("What is your name?");
+String name = sc.next();
+System.out.println("Hello, " + name + "!");
+
 
 int d1 = rand.nextInt(6)+1;
 int d2 = rand.nextInt(6)+1;
